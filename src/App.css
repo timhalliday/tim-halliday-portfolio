@@ -9,11 +9,16 @@
   /* --------- COLOURS --------- */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: hsl(var(--hue), var(--sat), 30%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: (hsl(var(--hue)), var(--sat), 46%);
   --body-color: (hsl(var(--hue)), var(--sat), 98%);
   --container-color: #FFFFFF;
+  --pastel-teal: #A8E6CE;
+  --pastel-green: #DCEDC2;
+  --pastel-orange:  #FFD3B5;
+  --pastel-peach: #FFAAA6;
+  --pastel-pink: #FF8C94;
 
   /* -------- FONTS --------- */
   --body-font: "Inter", sans-serif;
@@ -98,6 +103,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-color)
 }
 
 button {
@@ -109,4 +115,83 @@ button {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* -------- CSS CLASSES ------- */
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+/* --------- LAYOUT --------- */
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* --------- BUTTONS -------- */
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium)
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* -------- BREAKPOINTS ---------- */
+/* Large devices */
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+}
+
+/* Small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1 );
+  }
 }
