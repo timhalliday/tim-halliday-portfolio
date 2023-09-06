@@ -13,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 1rem;
+  background-color: rgba(255,255,255, 0.95);
 }
 
 .nav__logo,
@@ -81,20 +82,40 @@
   background-color: var(--pastel-teal);
 }
 
+.nav__item:nth-child(1) .nav__icon-hover {
+  color: var(--pastel-teal);
+}
+
 .nav__item:nth-child(2) .nav__link:after {
   background-color: var(--pastel-green);
+}
+
+.nav__item:nth-child(2) .nav__icon-hover {
+  color: var(--pastel-green);
 }
 
 .nav__item:nth-child(3) .nav__link:after {
   background-color: var(--pastel-orange);
 }
 
+.nav__item:nth-child(3) .nav__icon-hover{
+  color: var(--pastel-orange);
+}
+
 .nav__item:nth-child(4) .nav__link:after {
   background-color: var(--pastel-peach);
 }
 
+.nav__item:nth-child(4) .nav__icon-hover {
+  color: var(--pastel-peach);
+}
+
 .nav__item:nth-child(5) .nav__link:after {
   background-color: var(--pastel-pink);
+}
+
+.nav__item:nth-child(5) .nav__icon-hover {
+  color: var(--pastel-pink);
 }
 
 /* -------- BREAKPOINTS ---------- */
@@ -114,7 +135,7 @@
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
+    background-color: rgba(255, 255, 255, 0.95);
     padding: 2rem 1.5rem 4rem;
     border-top: 1px dashed rgb(177, 177, 177);
     /* box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.10);

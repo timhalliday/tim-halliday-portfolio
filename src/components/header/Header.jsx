@@ -1,7 +1,7 @@
 import React from  "react";
 import "./header.css";
 
-function Header() {
+export default function Header() {
   const [visible, setVisible] = React.useState(false);
 
   function toggleVisible(){
@@ -22,7 +22,8 @@ function Header() {
               </a>
             </li>
 
-            <li className="nav__item">
+            <li className="nav__item"
+            >
               <a href="#about" className="nav__link">
                 <i className="uil uil-user nav__icon"></i>About
               </a>
@@ -59,5 +60,3 @@ function Header() {
     </header>
   )
 }
-
-export default Header;
