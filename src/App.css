@@ -14,6 +14,7 @@
   --text-color: (hsl(var(--hue)), var(--sat), 46%);
   --body-color: (hsl(var(--hue)), var(--sat), 98%);
   --container-color: #FFFFFF;
+  --background-color: rgb(250, 250, 250);
   --pastel-teal: #A8E6CE;
   --darker-teal: #89d6b8;
 
@@ -79,6 +80,7 @@ body, html {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  background-color: var(--body-color);
 }
 
 * {
@@ -127,6 +129,21 @@ button {
 img {
   max-width: 100%;
   height: auto;
+}
+
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 /* -------- CSS CLASSES ------- */

@@ -73,12 +73,16 @@ export default function Data() {
 
         In a relatively short period, I've progressed to the point where I was able to develop and ship a web app independently using Java 8, Spring Boot, MySQL, and AWS for hosting. As for front-end, I'm skilled in HTML5, CSS3, JavaScript, JQuery and React.<br/><br/>
 
-        Outside of work, I'm passionate about foreign languages and travel - I've lived abroad in France, Spain, Portugal and Australia. Nowadays, I also like to spend my time trying out new recipes and watching movies.
+        Outside of work, I'm passionate about foreign languages and travel - I've lived abroad in France, Spain, Portugal and Australia. Nowadays, I also like to spend my time trying out new recipes, reading books and watching movies.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex home__button">
         Say hi!
         <i className="uil uil-message button__icon"></i>
+      </a>
+      <a href="" className="button button--flex home__button">
+        Download CV
+        <i className="uil uil-import button__icon"></i>
       </a>
     </div>
   )

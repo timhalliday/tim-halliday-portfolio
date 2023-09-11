@@ -139,6 +139,7 @@
   box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
   order: 1;
   justify-self: center;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
@@ -189,6 +190,24 @@
 .home__scroll-arrow {
   font-size: 1.5rem;
   color: var(--title-color);
+}
+
+.home__scroll:hover .home__scroll-arrow {
+  animation: jumpInfinite 3s ease-in-out infinite;
+}
+
+.home__button {
+  margin: 0 10px;
+}
+
+@keyframes jumpInfinite {
+
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    margin-top: translateY(-5px);
+  }
 }
 
 /* -------- BREAKPOINTS ---------- */
