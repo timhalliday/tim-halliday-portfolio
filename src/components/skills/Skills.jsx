@@ -8,7 +8,7 @@ export default function Skills(){
   return (
     <section className="skills section" id="skills">
       <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">Technologies I work with</span>
+      <span className="section__subtitle">Some of the technologies I'm most familiar with</span>
       <div className="skills__container container grid">
         <Frontend />
         <Backend />

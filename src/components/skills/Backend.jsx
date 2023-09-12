@@ -1,4 +1,10 @@
 import React from 'react';
+import { JavaOriginal } from 'devicons-react';
+import { SpringOriginal } from 'devicons-react';
+import { RailsPlain } from 'devicons-react';
+import { MysqlOriginal } from 'devicons-react';
+import { AmazonwebservicesOriginal } from 'devicons-react';
+
 
 export default function Backend(){
   return (
@@ -8,7 +14,7 @@ export default function Backend(){
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <JavaOriginal size="25"/>
             <div>
               <h3 className="skills__name">Java 8</h3>
               <span className="skills__level">Intermediate</span>
@@ -16,7 +22,7 @@ export default function Backend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <SpringOriginal size="25"/>
             <div>
               <h3 className="skills__name">Spring Boot</h3>
               <span className="skills__level">Beginner</span>
@@ -24,7 +30,7 @@ export default function Backend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <RailsPlain size="25"/>
             <div>
               <h3 className="skills__name">Ruby on Rails</h3>
               <span className="skills__level">Beginner</span>
@@ -35,7 +41,7 @@ export default function Backend(){
 
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <MysqlOriginal size="25"/>
             <div>
               <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">Intermediate</span>
@@ -51,7 +57,7 @@ export default function Backend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <AmazonwebservicesOriginal size="25"/>
             <div>
               <h3 className="skills__name">AWS</h3>
               <span className="skills__level">Beginner</span>

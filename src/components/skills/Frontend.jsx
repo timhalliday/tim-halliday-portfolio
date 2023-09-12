@@ -1,4 +1,10 @@
 import React from 'react';
+import { Html5Original } from 'devicons-react';
+import { Css3Original } from 'devicons-react';
+import { JavascriptOriginal } from 'devicons-react';
+import { JqueryOriginal } from 'devicons-react';
+import { ReactOriginal } from 'devicons-react';
+import { BootstrapOriginal } from 'devicons-react';
 
 export default function Frontend(){
   return (
@@ -9,7 +15,7 @@ export default function Frontend(){
 
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <Html5Original size="20"/>
             <div>
               <h3 className="skills__name">HTML5</h3>
               <span className="skills__level">Intermediate</span>
@@ -17,7 +23,7 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <Css3Original size="20"/>
             <div>
               <h3 className="skills__name">CSS3</h3>
               <span className="skills__level">Intermediate</span>
@@ -25,7 +31,7 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <JavascriptOriginal size="20"/>
             <div>
               <h3 className="skills__name">JavaScript</h3>
               <span className="skills__level">Intermediate</span>
@@ -36,7 +42,7 @@ export default function Frontend(){
 
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <JqueryOriginal size="25"/>
             <div>
               <h3 className="skills__name">JQuery</h3>
               <span className="skills__level">Intermediate</span>
@@ -44,7 +50,7 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <ReactOriginal  size="25"/>
             <div>
               <h3 className="skills__name">React</h3>
               <span className="skills__level">Beginner</span>
@@ -52,7 +58,7 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BootstrapOriginal  size="25"/>
             <div>
               <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__level">Beginner</span>
