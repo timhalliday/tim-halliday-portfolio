@@ -1,5 +1,62 @@
 .services__container {
-  grid-template-columns: repeat(3, 200px);
-  column-gap: 3rem;
+  grid-template-columns: repeat(3, 270px);
+  column-gap: 1.8rem;
   justify-content: center;
+}
+
+.services__content, .services__content-flip {
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.1);
+  background-color: var(--container-color);
+  border-radius: 1.25rem;
+  height: 300px;
+}
+
+.services__content {
+  padding: 8rem 2rem 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.services__content-flip {
+
+}
+
+.services__icon {
+  display: block;
+  font-size: 3rem;
+  color: var(--darker-orange );
+  margin-bottom: var(--mb-1);
+}
+
+.services__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-medium);
+
+}
+
+.services__button {
+  color: var(--title-color);
+  font-size: var(--normal-font-size);
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.services__button-icon  {
+  font-size: 1rem;
+  margin-left: 0.25rem;
+  transition: 0.3s;
+}
+
+.services__button:hover .services__button-icon {
+  transform: translateX(0.25rem);
+  color: var(--darker-orange);
+}
+
+.services__modal {
+  display: none;
 }
