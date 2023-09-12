@@ -4,6 +4,8 @@ import ReactCardFlip from "react-card-flip";
 export default function Service(props){
   const [flip, setFlip] = React.useState(false);
 
+  const achievements = props.achievements.map(achievement => <li key={props.achievements.indexOf(achievement)}>{achievement}</li>)
+
   return (
     <ReactCardFlip
       isFlipped= {flip}
@@ -25,10 +27,16 @@ export default function Service(props){
 
       </div>
       <div className="services__content-flip">
-        <i className="uil uil-times services__button-close" onClick={() => setFlip(!flip)}></i>
+        <i className="uil uil-corner-up-left-alt services__button-close" onClick={() => setFlip(!flip)}></i>
         <div>
-          <h3 className="services__title">The flip side</h3>
+          <h3 className="services__title-flip">{props.title}</h3>
         </div>
+        <span className="services__subtitle-flip">{props.subtitle}<br/><br/>
+        <strong>Some achievements I'm proud of:</strong>
+        </span>
+        <ul className="services__achievements">
+          {achievements}
+        </ul>
 
 
 
