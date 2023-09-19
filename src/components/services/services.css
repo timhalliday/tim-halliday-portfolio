@@ -9,7 +9,7 @@
   border: 1px solid rgba(0,0,0,0.1);
   background-color: var(--container-color);
   border-radius: 1.25rem;
-  height: 410px;
+  height: 420px;
 }
 
 .services__content {
@@ -47,7 +47,7 @@
 }
 
 .services__achievements li {
-  margin-bottom: var(--mb-0-5)
+  margin-bottom: 0.65rem
 }
 
 .services__button-close {
@@ -57,6 +57,10 @@
   top: 5px;
   right: 15px;
   cursor: pointer;
+}
+
+.services__button-close:hover {
+  color: rgba(0,0,0,0.5);
 }
 
 .services__icon {
@@ -81,13 +85,13 @@
 }
 
 .services__button-icon  {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-left: 0.25rem;
   transition: 0.3s;
 }
 
 .services__button:hover .services__button-icon {
-  transform: translateX(0.25rem);
+  transform: translateX(0.2rem);
   color: var(--darker-orange);
 }
 
@@ -138,11 +142,30 @@
   }
 
   .services__subtitle-flip {
-    font-size: 0.88rem;
+    font-size: 0.8rem;
   }
 
   .services__achievements {
-    font-size: 0.88rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .services__content, .services__content-flip {
+    height: 500px;
+    padding: 3.5rem 2rem 3rem 1.5rem;
+  }
+
+  .services__title-flip {
+    font-size: 1.2rem;
+  }
+
+  .services__subtitle-flip {
+    font-size: 0.7rem;
+  }
+
+  .services__achievements {
+    font-size: 0.75rem;
   }
 }
 
@@ -176,11 +199,11 @@
   }
 
   .services__subtitle-flip {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .services__achievements {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
 }
