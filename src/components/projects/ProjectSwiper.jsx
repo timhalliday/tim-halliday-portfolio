@@ -32,12 +32,11 @@ export default function ProjectSwiperSlide(){
     <Swiper
         modules={[Navigation, Pagination, Scrollbar]}
         spaceBetween={30}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         navigation
         pagination={{clickable: true}}
         centeredSlides={true}
         initialSlide={0}
+        speed={900}
         className="projects__swiper"
         slidesPerView={1}
         loop={true}

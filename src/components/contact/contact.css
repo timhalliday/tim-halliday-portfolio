@@ -95,5 +95,64 @@
   left: 1.25rem;
   font-size: var(--smaller-font-size);
   padding: 0.25rem;
-  background-color: var(--body-color);
+  background-color: #FFF;
+  z-index: 10;
+  border-radius: 12px;
+}
+
+.contact__form-area {
+  height: 11rem;
+  /* margin-bottom: var(--mb-1) !important; */
+}
+
+.contact__form-area textarea {
+  resize: none;
+}
+
+.contact__alert {
+  margin-bottom: var(--mb-2);
+}
+
+.contact__button {
+  float: right;
+}
+
+/* -------- BREAKPOINTS ---------- */
+/* Large devices */
+@media screen and (max-width: 992px) {
+  .coontact__container {
+    column-gap: 3rem;
+  }
+
+}
+
+/* Medium devices */
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .contact__info {
+    justify-content: center;
+  }
+
+  .contact__form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact__info {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form {
+    width: 100%;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 350px) {
+
 }
