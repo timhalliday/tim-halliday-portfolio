@@ -1,4 +1,5 @@
 import React from "react";
+import CV from '../../assets/Tim-Halliday-CV.pdf';
 
 export default function Data() {
   const[handAnimate, setHandAnimate] = React.useState(false);
@@ -80,7 +81,7 @@ export default function Data() {
         Say hi!
         <i className="uil uil-message button__icon"></i>
       </a>
-      <a href="" className="button button--flex home__button">
+      <a href={CV} target="_blank" rel="noreferrer" className="button button--flex home__button">
         Download CV
         <i className="uil uil-import button__icon"></i>
       </a>
