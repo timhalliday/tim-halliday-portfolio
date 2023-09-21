@@ -35,11 +35,11 @@ export default function Header() {
               </a>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a href="#projects" className="nav__link">
                 <i className="uil uil-mountains nav__icon"></i> Projects
               </a>
-            </li>
+            </li> */}
 
             <li className="nav__item">
               <a href="#contact" className="nav__link">
