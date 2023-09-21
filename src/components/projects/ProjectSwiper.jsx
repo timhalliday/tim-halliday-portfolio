@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Swiper, SwiperSlide } from '/swiper/swiper-react.mjs';
-import { Navigation, Pagination, Scrollbar } from '/swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/swiper-react.mjs';
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 
 import 'swiper/swiper-bundle.css'; // core Swiper
 import './swiper-custom.css'
