@@ -199,11 +199,28 @@
   }
 
   .services__subtitle-flip {
-    font-size: 0.8rem;
+    font-size: 16px;
   }
 
   .services__achievements {
-    font-size: 0.8rem;
+    font-size: 16px;
+  }
+
+}
+
+/* Small devices */
+@media screen and (max-width: 370px) {
+
+  .services__title-flip {
+    font-size: 1.3rem;
+  }
+
+  .services__subtitle-flip {
+    font-size: 14px;
+  }
+
+  .services__achievements {
+    font-size: 14px;
   }
 
 }

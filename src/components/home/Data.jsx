@@ -77,14 +77,16 @@ export default function Data() {
         Outside of work, I'm passionate about foreign languages and travel — I've lived abroad in France, Spain, Portugal and Australia. Nowadays, I also like to spend my time trying out new recipes, reading books and watching movies.
       </p>
 
-      <a href="#contact" className="button button--flex home__button">
-        Say hi!
-        <i className="uil uil-message button__icon"></i>
-      </a>
-      <a href={CV} target="_blank" rel="noreferrer" className="button button--flex home__button">
-        Download CV
-        <i className="uil uil-import button__icon"></i>
-      </a>
+      <div className="home__button-wrap">
+        <a href="#contact" className="button button--flex home__button">
+          Say hi!
+          <i className="uil uil-message button__icon"></i>
+        </a>
+        <a href={CV} target="_blank" rel="noreferrer" className="button button--flex home__button">
+          Download CV
+          <i className="uil uil-import button__icon"></i>
+        </a>
+      </div>
     </div>
   )
 }
