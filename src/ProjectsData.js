@@ -3,43 +3,20 @@ export default {
   "data": {
     "projects" : [
       {
-        "id" : 1,
-        "title" : "My Project",
+        "id" : "1",
+        "title" : "Wordle Clone",
         "subtitle" : "Built in React",
-        "imgUrl" : "https://picsum.photos/300/300",
-        "description" : "I built this project as a way to practise my skills and learn more about things. It was made in React and I did it so that I could learn some more about it. I built this project as a way to practise my skills and learn more about things. It was made in React and I did it so that I could learn some more about it. I built this project as a way to practise my skills and learn more about things. It was made in React and I did it so that I could learn some more about it. I built this project as a way to practise my skills and learn more about things. It was made in React and I did it so that I could learn some more about it.",
-        "url" : "http://google.com"
+        "imgUrl" : "/src/assets/Reactle.png",
+        "description" : "I wanted to get some hands-on experience in React, so I recreated one of my favourite word games: Wordle! This mini web app is designed to mimic Wordle closely in most ways - except you can play as many times as you like in a day. I developed my skills building custom React hooks, working with JSON servers and the implementation of the Effect hook.",
+        "url" : "https://timely-piroshki-f7364b.netlify.app/"
       },
       {
-        "id" : 2,
-        "title" : "My Project",
-        "subtitle" : "Built in React",
-        "imgUrl" : "https://picsum.photos/300/300",
-        "description" : "I made this project in React",
-        "url" : "http://google.com"
-      },
-      {
-        "id" : 3,
-        "title" : "My Project",
-        "subtitle" : "Built in React",
-        "imgUrl" : "https://picsum.photos/300/300",
-        "description" : "I made this project in React",
-        "url" : "http://google.com"
-      },
-      {
-        "id" : 4,
-        "title" : "My Project",
-        "subtitle" : "Built in React",
-        "imgUrl" : "https://picsum.photos/300/300",
-        "description" : "I made this project in React",
-        "url" : "http://google.com"
-      },
-      {
-        "id" : 5,
-        "title" : "My Project",
-        "imgUrl" : "https://picsum.photos/300/300",
-        "description" : "I made this project in React",
-        "url" : "http://google.com"
+        "id" : "2",
+        "title" : "Movies API",
+        "subtitle" : "Built with Java/Spring/Hibernate",
+        "imgUrl" : "/src/assets/Reactle.png",
+        "description" : "",
+        "url" : "#"
       }
     ]
   }

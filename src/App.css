@@ -1,3 +1,7 @@
+
+/* -------- @COREUI -------- */
+@import "../node_modules/@coreui/coreui/scss/coreui.scss";
+
 /* -------- GOOGLE FONTS -------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap');
 

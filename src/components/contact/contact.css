@@ -150,6 +150,10 @@
   .contact__form {
     width: 100%;
   }
+
+  #contact .section__subtitle {
+    padding: 0 2rem;
+  }
 }
 
 /* Small devices */
