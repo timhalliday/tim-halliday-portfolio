@@ -14,7 +14,7 @@ export default {
         "id" : "2",
         "title" : "Movies API",
         "subtitle" : "Built with Java/Spring/Hibernate",
-        "imgUrl" : "/src/assets/Reactle.png",
+        "imgUrl" : "../../assets/Reactle.png",
         "description" : "",
         "url" : "#"
       }
