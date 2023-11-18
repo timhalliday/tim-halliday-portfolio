@@ -25,7 +25,7 @@ export default function ProjectSwiperSlide(){
   })
 
   return (
-    <CCarousel controls indicators dark>
+    <CCarousel controls indicators dark className='carousel-dark'>
       {projectCards}
     </CCarousel>
   )
