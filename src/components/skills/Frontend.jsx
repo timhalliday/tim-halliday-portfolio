@@ -51,7 +51,7 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <TailwindcssOriginal  size="25"/>
+            <img src="/src/assets/tailwind.png" alt="Tailwind" style={{ width: '25px', height: '25px', objectFit: 'contain' }}  />
             <div>
               <h3 className="skills__name">Tailwind</h3>
               <span className="skills__level">Beginner</span>
