@@ -4,7 +4,7 @@ import { Css3Original } from 'devicons-react';
 import { FigmaOriginal } from 'devicons-react';
 import { ReactOriginal } from 'devicons-react';
 import { TypescriptOriginal } from 'devicons-react';
-import { TailwindcssOriginal } from 'devicons-react';
+import tailwindLogo from '../../assets/tailwind.png'; 
 
 export default function Frontend(){
   return (
@@ -51,7 +51,7 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <img src="/src/assets/tailwind.png" alt="Tailwind" style={{ width: '25px', height: '25px', objectFit: 'contain' }}  />
+            <img src={tailwindLogo} alt="Tailwind" style={{ width: '25px', height: '25px', objectFit: 'contain' }} />
             <div>
               <h3 className="skills__name">Tailwind</h3>
               <span className="skills__level">Beginner</span>

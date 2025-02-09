@@ -1,7 +1,6 @@
 import React from 'react';
 import { JavaOriginal } from 'devicons-react';
 import { SpringOriginal } from 'devicons-react';
-import { RailsPlain } from 'devicons-react';
 import { MysqlOriginal } from 'devicons-react';
 import { AmazonwebservicesOriginal } from 'devicons-react';
 import { KotlinOriginal } from 'devicons-react';
