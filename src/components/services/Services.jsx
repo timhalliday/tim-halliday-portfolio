@@ -14,7 +14,7 @@
           <Service
             icon={"web-grid"}
             title={"Front-End"}
-            subtitle={"I love creating beautiful and efficient UX/UI, and I understand the importance of keeping an immaculate file structure!"}
+            subtitle={"I love creating beautiful and efficient interfaces that align with user needs."}
             achievements={["📈  Built diagnostic dashboards showing financial performance.",
                             "🤝  Collaborated with external companies to create attractive UI with consistent styling rules under the hood.",
                             "💫  Independently designed and created the UI for a mini content sharing platform for English learners.",

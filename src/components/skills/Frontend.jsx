@@ -1,10 +1,10 @@
 import React from 'react';
 import { Html5Original } from 'devicons-react';
 import { Css3Original } from 'devicons-react';
-import { JavascriptOriginal } from 'devicons-react';
-import { JqueryOriginal } from 'devicons-react';
+import { FigmaOriginal } from 'devicons-react';
 import { ReactOriginal } from 'devicons-react';
-import { BootstrapOriginal } from 'devicons-react';
+import { TypescriptOriginal } from 'devicons-react';
+import { TailwindcssOriginal } from 'devicons-react';
 
 export default function Frontend(){
   return (
@@ -31,9 +31,9 @@ export default function Frontend(){
           </div>
 
           <div className="skills__data">
-            <JavascriptOriginal size="20"/>
+            <TypescriptOriginal size="20"/>
             <div>
-              <h3 className="skills__name">JavaScript</h3>
+              <h3 className="skills__name">TypeScript</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -41,31 +41,30 @@ export default function Frontend(){
         </div>
 
         <div className="skills__group">
-          <div className="skills__data">
-            <JqueryOriginal size="25"/>
-            <div>
-              <h3 className="skills__name">JQuery</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
 
           <div className="skills__data">
             <ReactOriginal  size="25"/>
             <div>
               <h3 className="skills__name">React</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <TailwindcssOriginal  size="25"/>
+            <div>
+              <h3 className="skills__name">Tailwind</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <BootstrapOriginal  size="25"/>
+            <FigmaOriginal size="25"/>
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
+              <h3 className="skills__name">Figma</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
-
-
 
         </div>
       </div>

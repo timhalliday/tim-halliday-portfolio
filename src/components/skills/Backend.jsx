@@ -4,6 +4,8 @@ import { SpringOriginal } from 'devicons-react';
 import { RailsPlain } from 'devicons-react';
 import { MysqlOriginal } from 'devicons-react';
 import { AmazonwebservicesOriginal } from 'devicons-react';
+import { KotlinOriginal } from 'devicons-react';
+import { GitOriginal } from 'devicons-react';
 
 
 export default function Backend(){
@@ -24,16 +26,16 @@ export default function Backend(){
           <div className="skills__data">
             <SpringOriginal size="25"/>
             <div>
-              <h3 className="skills__name">Spring Boot</h3>
-              <span className="skills__level">Beginner</span>
+              <h3 className="skills__name">Spring</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <RailsPlain size="25"/>
+            <KotlinOriginal size="25"/>
             <div>
-              <h3 className="skills__name">Ruby on Rails</h3>
-              <span className="skills__level">Beginner</span>
+              <h3 className="skills__name">Kotlin</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -49,9 +51,9 @@ export default function Backend(){
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <GitOriginal size="25"/>
             <div>
-              <h3 className="skills__name">MyBatis</h3>
+              <h3 className="skills__name">Git</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

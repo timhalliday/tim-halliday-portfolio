@@ -70,7 +70,7 @@ export default function Data() {
       </h1>
       <h3 className="home__subtitle">Full-Stack Developer</h3>
       <p className="home__description">
-        Hi! My name is Tim, and I'm a full-stack developer based in London. Two years ago, I made the decision to study a web development bootcamp at Le Wagon, and here I am now! <br/><br/>
+        Hi! My name is Tim, and I'm a full-stack developer based in London. Three years ago, I made the decision to study a web development bootcamp at Le Wagon, and here I am now! <br/><br/>
 
         In a relatively short period, I've progressed to the point where I was able to develop and ship a web app independently using Java 8, Spring Boot, MySQL, and AWS for hosting. As for front-end, I'm skilled in HTML5, CSS3, JavaScript, JQuery and React.<br/><br/>
 
